@@ -16,8 +16,8 @@ goog.module('j2cl.samples.app');
 // This is the entry point of our app.
 // Feel free to use any fancy new ES features, Closure compiler will take care
 // of it if you need to run the code an older browser.
-var {sayHello} = goog.require('j2cl.samples.hello');
-
-sayHello();
+var { sayHello } = goog.require('j2cl.samples.hello');
 
 goog.exportSymbol("helloworld.sayHello", sayHello);
+
+

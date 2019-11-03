@@ -1,0 +1,1 @@
+function a(){return"Hello from Java! and JS!"}var b=["helloworld","sayHello"],c=this||self;b[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+b[0]);for(var d;b.length&&(d=b.shift());)b.length||void 0===a?c[d]&&c[d]!==Object.prototype[d]?c=c[d]:c=c[d]={}:c[d]=a;
